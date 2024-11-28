@@ -70,6 +70,7 @@ public class NumberRangeSummarizerImpl implements NumberRangeSummarizer
                 //updating value while if condition is true
                 rangeStart = current;
             }
+            //next iteration of the loop, the prev variable holds the value of the current element from this iteration
             prev = current;
         }
 
